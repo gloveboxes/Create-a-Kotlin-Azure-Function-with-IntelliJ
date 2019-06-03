@@ -4,7 +4,7 @@
 |----|---|
 |Solution| [Creating your first Kotlin Azure Function](https://github.com/gloveboxes/Create-your-first-Azure-function-with-Kotlin-and-IntelliJ)|
 |Documentation|[README](https://gloveboxes.github.io/Creating-an-image-recognition-solution-with-Azure-IoT-Edge-and-Azure-Cognitive-Services/) |
-|Platform| [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions?WT.mc_id=devto-blog-dglover)|
+|Platform| [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions?WT.mc_id=github-blog-dglover)|
 |Programming Language| Kotlin|
 |Date|As at April 2019|
 
@@ -14,12 +14,12 @@ Kotlin is an emerging development language rated as one of the most loved langua
 
 ##  1. <a name='ReferenceDocumentation'></a>Reference Documentation
 
-- [Create your first Azure function with Java and IntelliJ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij?WT.mc_id=devto-blog-dglover)
-- [Azure Functions Java developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-java?WT.mc_id=devto-blog-dglover)
+- [Create your first Azure function with Java and IntelliJ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij?WT.mc_id=github-blog-dglover)
+- [Azure Functions Java developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-java?WT.mc_id=github-blog-dglover)
 - [Library for Azure Java Functions](https://github.com/Azure/azure-functions-java-library)
-- [Register Azure Functions binding extensions](https://docs.microsoft.com/bs-latn-ba/azure/azure-functions/functions-bindings-register?WT.mc_id=devto-blog-dglover)
-- [Maven Plugin for Azure Functions](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable&WT.mc_id=devto-blog-dglover)
-- [Azure Toolkit for IntelliJ](https://docs.microsoft.com/en-us/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable&WT.mc_id=devto-blog-dglover)
+- [Register Azure Functions binding extensions](https://docs.microsoft.com/bs-latn-ba/azure/azure-functions/functions-bindings-register?WT.mc_id=github-blog-dglover)
+- [Maven Plugin for Azure Functions](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable&WT.mc_id=github-blog-dglover)
+- [Azure Toolkit for IntelliJ](https://docs.microsoft.com/en-us/java/azure/intellij/azure-toolkit-for-intellij?view=azure-java-stable&WT.mc_id=github-blog-dglover)
 
 ##  2. <a name='Setupyourdevelopmentenvironment'></a>Set up your development environment
 
@@ -28,8 +28,8 @@ To develop a function with Java and IntelliJ, install the following software:
 - [Java Developer Kit](https://www.azul.com/downloads/zulu/) (JDK), version 8
 - [Apache Maven](https://maven.apache.org), version 3.0 or higher
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download), Community or Ultimate versions with Maven
-- [Azure CLI](https://docs.microsoft.com/cli/azure?WT.mc_id=devto-blog-dglover)
-- [Azure Functions Core Tools, version 2](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?WT.mc_id=devto-blog-dglover)
+- [Azure CLI](https://docs.microsoft.com/cli/azure?WT.mc_id=github-blog-dglover)
+- [Azure Functions Core Tools, version 2](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?WT.mc_id=github-blog-dglover)
 
 > The JAVA_HOME environment variable must be set to the install location of the JDK to complete the steps in this article.
 
@@ -206,7 +206,7 @@ Click the Stop icon to detach the debugger and stop the Azure Function
 
 ##  25. <a name='AddingnewAzureFunctionTriggers'></a>Adding new Azure Function Triggers
 
-[azure-functions:add](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable#azure-functionsadd&WT.mc_id=devto-blog-dglover)
+[azure-functions:add](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable#azure-functionsadd&WT.mc_id=github-blog-dglover)
 
 The azure-functions:add Maven archetype supports the following trigger types.
 
@@ -226,7 +226,7 @@ From the Maven pop-out, under Plugins, select **azure-functions:add**
 
 ##  26. <a name='DeployingKotlinAzureFunctionstoAzure'></a>Deploying Kotlin Azure Functions to Azure
 
-[azure-functions:deploy](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable#azure-functionsdeploy&WT.mc_id=devto-blog-dglover)
+[azure-functions:deploy](https://docs.microsoft.com/en-us/java/api/overview/azure/maven/azure-functions-maven-plugin/readme?view=azure-java-stable#azure-functionsdeploy&WT.mc_id=github-blog-dglover)
 
 To deploy the staging directory to target Azure Functions. If target Azure Functions does not exist already, it will be created.
 
