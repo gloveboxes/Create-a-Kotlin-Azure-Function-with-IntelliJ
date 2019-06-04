@@ -124,7 +124,8 @@ Right mouse click on the **azure-functions:run** Maven Archetype and select **Cr
 
 ## 12. <a name='CreateRunDebugConfiguration'></a>Create Run/Debug Configuration
 
-Add **-DenableDebug** to the command line.
+1. Rename the configuration to highlight that **package** will also be run. For example **glovebox-functions [azure-functions:package and run]**
+2. Add **-DenableDebug** to the command line.
 
 ![create new kotlin project](/resources/project-enable-debug-azure-function-maven-debug-configure.png)
 
