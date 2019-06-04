@@ -98,6 +98,8 @@ To test the function click the http://localhost:7071/api/HttpTrigger-Kotlin link
 
 ![create new kotlin project](/resources/project-azure-functions-run.png)
 
+**TIP**: The function runs in the context of a local process called **func** on port 7071. Sometimes this process does not close properly. If this happens, then next time you run the function it will complain that port 7071 is already open. You need to close the **func** process manually from the task/process manager of your operating system.
+
 ## 9. <a name='PassinaparameterontheQueryString'></a>Pass in a parameter on the Query String
 
 In the browser add a name parameter to the query string. For example, http://localhost:7071/api/HttpTrigger-Kotlin?name=dave and you will see the webpage echos the value passed in for name.
@@ -124,7 +126,7 @@ Right mouse click on the **azure-functions:run** Maven Archetype and select **Cr
 
 ## 12. <a name='CreateRunDebugConfiguration'></a>Create Run/Debug Configuration
 
-1. Rename the configuration to highlight that **package** will also be run. For example **glovebox-functions [azure-functions:package and run]**
+1. Rename the configuration to highlight that **package** will be run before azure-functions:run.
 2. Add **-DenableDebug** to the command line.
 
 ![create new kotlin project](/resources/project-enable-debug-azure-function-maven-debug-configure.png)
