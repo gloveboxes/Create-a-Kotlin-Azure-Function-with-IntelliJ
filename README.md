@@ -141,7 +141,7 @@ Click **OK**.
 
 Click **OK**
 
-## 13. <a name='EnableJavaDebuggerAttach'></a>Enable Java Debugger Attach
+## 13. <a name='EnableJavaDebuggerAttach'></a>Enable JVM Debugger Attach
 
 From **Run** menu, select **Edit Configuration**
 
