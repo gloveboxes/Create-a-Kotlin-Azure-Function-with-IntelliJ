@@ -235,4 +235,4 @@ You have created your first Kotlin based Azure Function
 
 Try out the [Building a Serverless IoT Solution with Kotlin Azure Functions and SignalR](https://dev.to/azure/building-a-serverless-iot-solution-with-kotlin-azure-functions-and-signalr-2lpg)
 
-![Building a Serverless IoT Solution with Kotlin Azure Functions and SignalR](/resources/iot-solution-architecture.png)
+![Building a Serverless IoT Solution with Kotlin Azure Functions and SignalR](https://raw.githubusercontent.com/gloveboxes/Create-a-Kotlin-Azure-Function-with-IntelliJ/master/resources/iot-solution-architecture.png)
