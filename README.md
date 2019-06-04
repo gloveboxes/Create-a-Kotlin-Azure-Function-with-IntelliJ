@@ -7,7 +7,7 @@
 |Programming Language| Kotlin|
 |Date|As at June 2019|
 
-This is an end to end walk through for creating Kotlin Azure Functions.
+This is an end to end walkthrough for creating Kotlin Azure Functions.
 
 Kotlin is an emerging development language rated as one of the most loved languages in the last [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2018#technology). It is becoming the default language for Android Development and being eyed with interested by those with investments in Java and looking for a more modern JVM language.
 
@@ -63,7 +63,7 @@ Maven creates the project files in a new folder with the same name as the projec
 
 ## 5. <a name='AzureConfiguration'></a>Azure Configuration
 
-By default the pom.xml file is opened when the project is created.
+By default, the pom.xml file is opened when the project is created.
 
 You can change the following project properties in the pom.xml file
 
@@ -155,7 +155,7 @@ Click the **+** sign, then select **Remote**.
 
 ## 15. <a name='NametheNewConfiguration'></a>Name the New Configuration
 
-In this case the configuration is named **Attach Debugger**
+In this case. the configuration is named **Attach Debugger**
 
 ![create new kotlin project](https://raw.githubusercontent.com/gloveboxes/Create-a-Kotlin-Azure-Function-with-IntelliJ/master/resources/project-run-edit-configurations-add-remote-attach-debugger.png)
 
@@ -230,3 +230,9 @@ To deploy the staging directory to target Azure Functions. If target Azure Funct
 You have created your first Kotlin based Azure Function
 
 ![Congratulations](https://raw.githubusercontent.com/gloveboxes/Create-a-Kotlin-Azure-Function-with-IntelliJ/master/resources/congratulations.jpg)
+
+## Next
+
+Try out the [Building a Serverless IoT Solution with Kotlin Azure Functions and SignalR](https://dev.to/azure/building-a-serverless-iot-solution-with-kotlin-azure-functions-and-signalr-2lpg)
+
+![Building a Serverless IoT Solution with Kotlin Azure Functions and SignalR](/resources/iot-solution-architecture.png)
