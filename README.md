@@ -92,7 +92,7 @@ From the Maven pop-out tab, expand **Lifecycle**, then run the **clean** followe
 
 ## 8. <a name='ExecuteAzureFunctionsRun'></a>Execute Azure Functions Run
 
-From the Maven pop-out tab, expand **Plugins**, then run the **azure-functions:run**. This will start the Azure Functions Core Tools and bootstrap your Kotlin Azure Function.
+From the Maven pop-out tab, expand **Plugins**, then expand **azure-functions**, then select **azure-functions:run**. This will start the Azure Functions Core Tools and bootstrap your Kotlin Azure Function.
 
 To test the function click the http://localhost:7071/api/HttpTrigger-Kotlin link
 
